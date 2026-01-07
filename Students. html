@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Subjects</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eef2f7;
+            padding: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #2c3e50;
+        }
+
+        .subject {
+            background-color: white;
+            padding: 15px 20px;
+            margin: 15px 0;
+            border-left: 6px solid #3498db;
+            border-radius: 8px;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+        }
+
+        .subject h3 {
+            margin: 0;
+            color: #1a5276;
+        }
+
+        .subject p {
+            margin-top: 8px;
+            font-size: 16px;
+            color: #333;
+            line-height: 1.5;
+        }
+
+        ol {
+            padding-left: 0;
+        }
+
+        li {
+            list-style: none;
+        }
+    </style>
+</head>
+
+<body>
+
+<h2>Subjects Offered</h2>
+
+<ol>
+    <li class="subject">
+        <h3>1. C Programming</h3>
+        <p>
+            C programming is a basic programming language used to understand
+            logic building, problem solving, and system-level programming.
+        </p>
+    </li>
+
+    <li class="subject">
+        <h3>2. Java</h3>
+        <p>
+            Java is an object-oriented programming language widely used for
+            application development, web applications, and Android development.
+        </p>
+    </li>
+
+    <li class="subject">
+        <h3>3. HTML</h3>
+        <p>
+            HTML is used to create the structure of web pages using elements
+            like headings, paragraphs, lists, and links.
+        </p>
+    </li>
+
+    <li class="subject">
+        <h3>4. CSS</h3>
+        <p>
+            CSS is used for styling web pages. It controls layout, colors,
+            fonts, spacing, and overall appearance of the website.
+        </p>
+    </li>
+
+    <li class="subject">
+        <h3>5. JavaScript</h3>
+        <p>
+            JavaScript adds interactivity to web pages such as button clicks,
+            form validation, animations, and dynamic content.
+        </p>
+    </li>
+</ol>
+
+</body>
+</html>
